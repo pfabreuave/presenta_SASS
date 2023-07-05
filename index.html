@@ -6,6 +6,7 @@
 		<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./js/app.js" type="text/javascript" defer></script>
 		<link rel="stylesheet" type="text/css" href="css/styles.css" />
 		<title>Presentacion | Welcome SASS</title>
 	</head>
@@ -183,11 +184,11 @@
 					</div>
 					<div class="form-group">
 						<label for="email">Email</label>
-						<input type="email" id='email' name='email' class="form-group-control" />
+						<input type="email" id='email' name='email' class="form-group-control"  minlength="10" />
 					</div>
 					<div class="form-group">
 						<label for="message">Mensagem</label>
-						<textarea name="" id="" cols="30" rows="4" class="form-group-control"></textarea>
+						<textarea name="" id="" cols="30" minlength="8" rows="4" class="form-group-control"></textarea>
 					</div>
 					<button class="btn btn-dark">Enviar Mensagem</button>
 				</form>

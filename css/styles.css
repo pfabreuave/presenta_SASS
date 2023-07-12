@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+#cursive {
+  font-family: "Monotype Corsiva", "Apple Chancery", "ITC Zapf Chancery", "URW Chancery L", cursive;
+}
+
 html,
 body {
   font-family: "Montserrat", sans-serif;
@@ -129,7 +133,7 @@ form button {
 }
 #showcase p {
   width: 50%;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 #about {

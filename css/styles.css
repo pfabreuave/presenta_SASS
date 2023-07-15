@@ -76,7 +76,6 @@ form label {
   margin-bottom: 6px;
 }
 form .form-group {
-  margin-bottom: 16px;
   margin-top: 26px;
 }
 form .form-group-control {
@@ -179,7 +178,7 @@ form button {
 }
 #services .services-flex-box {
   width: 360px;
-  height: 180px;
+  height: 260px;
   background: #fff;
   padding: 50px 20px;
   text-align: center;
